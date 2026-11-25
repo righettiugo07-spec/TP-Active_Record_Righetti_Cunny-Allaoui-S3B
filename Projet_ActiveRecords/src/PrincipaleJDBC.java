@@ -14,10 +14,9 @@ public class PrincipaleJDBC {
 
         // variables de connection
         String userName = "root";
-        String password = "root";
+        String password = "";
         String serverName = "127.0.0.1";
-        //String portNumber = "3306";
-        String portNumber = "8889"; // Port par défaut sur MAMP
+        String portNumber = "3306";
         String tableName = "personne";
 
         // il faut une base nommee testPersonne !
